@@ -104,7 +104,7 @@ while not finished:
     if keys[pygame.K_UP]:
         string = 'yes, i am crazy about python'
     if keys[pygame.K_DOWN]:
-        string = 'oohh, python'
+        string = 'python is cool'
     text_on(string)
     pygame.display.update()
 pygame.quit()
