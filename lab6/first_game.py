@@ -67,8 +67,8 @@ def creation():
         randint(205, screen_height - 100),
         randint(30, 100),
         COLORS[randint(0, 5)],
-        randint(1, 10),
-        randint(1, 10)))
+        randint(1, 5),
+        randint(1, 5)))
 
 
 def score_table(string):
