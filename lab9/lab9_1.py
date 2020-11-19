@@ -1,7 +1,7 @@
 import turtle
 from random import randint
 
-start = "2222220"
+start = "1222222210"
 axmTemp = ""
 
 stride_length = 10
@@ -10,7 +10,7 @@ position = []
 
 turtle.hideturtle()
 turtle.penup()
-turtle.setpos(0, -300)
+turtle.setpos(0, -350)
 turtle.left(90)
 turtle.pendown()
 turtle.tracer(0)
@@ -19,7 +19,7 @@ turtle.pensize(2)
 regulations = {"0": "1[-20]+20",
                "1": "12"}
 
-for k in range(11):
+for k in range(12):
     for i in start:
         if i in regulations:
             axmTemp += regulations[i]
